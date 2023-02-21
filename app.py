@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from joblib import load
+import xgbosst as xgb
+from xgboost import plot_importance
 
 class creditRisk:
     def __init__(self):
