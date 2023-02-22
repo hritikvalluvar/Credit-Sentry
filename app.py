@@ -7,7 +7,7 @@ from xgboost import plot_importance
 
 st.set_page_config(
     page_title="Credit Sentry",
-    page_icon="🧊",
+    page_icon="🏦",
     layout="wide"
 )
 class creditRisk:
