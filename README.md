@@ -42,6 +42,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Demo
+
+![demo](assets/demo.gif)
+
+Here's the link for the [web app](https://hritikvalluvar-credit-risk-analysis-app-rwx4rw.streamlit.app/).
+
+
 ## Exploratory Data Analysis
 
 ![Scatter PLot](assets/scatterPlot.png)
