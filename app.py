@@ -5,9 +5,14 @@ from joblib import load
 import xgboost as xgb
 from xgboost import plot_importance
 
+st.set_page_config(
+    page_title="Credit Sentry",
+    page_icon="🧊",
+    layout="wide"
+)
 class creditRisk:
     def __init__(self):
-        st.title('Credit :red[Risk] Analysis')
+        st.title('Credit :red[Sentry]')
         st.caption("Assessing creditworthiness is like peering into a crystal ball - it takes a mix of financial savvy and intuition to predict a borrower's repayment behavior.")
 
     def get_data(self):
